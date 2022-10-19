@@ -1,0 +1,25 @@
+.navigator {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  /* border: 1px solid black; */
+}
+
+.navigator button {
+    background: rgba(215, 223, 233, 0.24);
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #d7dfe9;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14 rem;
+  line-height: 1rem;
+  color: #171F46;
+
+}
+/* .navigator a:active {
+  background: #0B69FF;
+  color: #D7DFE9;
+} */

@@ -1,0 +1,74 @@
+.additem-main {
+  /* border: 3px solid black; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 2rem;
+  height: 700px;
+  overflow: hidden;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.additem-form {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 60px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+ 
+
+.additem-img img {
+ 
+  height: fit-content;
+  
+}
+
+.additem-form label {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  /* Grey/100 */
+
+  color: #7e858e;
+}
+
+.additem-form input {
+  /* General/White */
+  height: 40px;
+  background: #ffffff;
+  /* Light Grey/100 */
+  box-sizing: border-box;
+  border: 1px solid #d7dfe9;
+  border-radius: 2px;
+  width: fit-content;
+}
+.form-div {
+  display: grid;
+  margin: 10px;
+}
+.form-btn {
+  margin-top: 20px;
+  color: #ffffff;
+  background: #0b69ff;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  border: #0b69ff;
+}
