@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import AddItem from "./AddItem";
 import "../styles/Navigator.css";
 import Container from "./Container";
+import ResourcesDetails from "./ResourcesDetails";
 
 const Navigator = () => {
   const [resourceType, setResource] = useState(<Container />);
@@ -22,7 +23,7 @@ const Navigator = () => {
         </button>
         <button
           onClick={() => {
-            setResource( <Container />);
+            setResource( <ResourcesDetails/>);
           }}
         >
           Requests
